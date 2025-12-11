@@ -63,3 +63,5 @@ To destroy all provisioned resources:
 ```bash
 terraform destroy -var-file=local.tfvars
 ```
+
+### Course by Klabs
