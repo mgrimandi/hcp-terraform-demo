@@ -1,2 +1,5 @@
 .terraform 
 tf-key*
+*.tfvars
+terraform*
+*token*
