@@ -23,6 +23,7 @@ This project demonstrates how to use Terraform to provision and manage AWS infra
 - **`terraform.tfvars`** - Local variable values (not committed to version control)
 
 ![infrastructure Draw](./infrastructure-schema.png)
+*- made by [brainboard](https://app.brainboard.co)* 
 
 ## Prerequisites
 
