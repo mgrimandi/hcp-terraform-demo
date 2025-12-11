@@ -3,3 +3,4 @@ tf-key*
 *.tfvars
 terraform*
 *token*
+plan*

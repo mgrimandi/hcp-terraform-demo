@@ -22,6 +22,8 @@ This project demonstrates how to use Terraform to provision and manage AWS infra
 - **`output.tf`** - Output values (e.g., instance public IP)
 - **`local.tfvars`** - Local variable values (not committed to version control)
 
+![infrastructure Draw](./infrastructure-schema.png)
+
 ## Prerequisites
 
 - Terraform >= 1.0
