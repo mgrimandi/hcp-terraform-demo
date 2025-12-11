@@ -1,0 +1,16 @@
+variable "name_prefix" {
+  description = "Prefix Name pr every resources"
+  type = string
+}
+
+variable "tf_vpc__cidr_block" {
+  description = "The CIDR of infrastructure VPC"
+  type =  string
+  default = "192.168.0.0/16"
+}
+
+variable "tf_pub_subnet__cidr_block" {
+  description = "The CIDR of Public Subnet"
+  type =  string
+  default = "192.168.1.0/24"
+}
