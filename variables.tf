@@ -5,7 +5,7 @@ variable "ec2_type" {
   
 }
 variable "name_prefix" {
-  description = "Prefix Name pr every resources"
+  description = "Prefix Name for every resources"
   type = string
 }
 
@@ -30,4 +30,5 @@ variable "ami_name_filter" {
 variable "public_key_material" {
   description = "SSH Public Key content"
   type = string
+
 }
