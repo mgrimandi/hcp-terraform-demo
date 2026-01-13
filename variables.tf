@@ -1,7 +1,7 @@
 variable "ec2_type" {
   description = "EC2 family type"
   type = string
-  default = "t3.small"
+  default = "t3.micro"
   
 }
 variable "name_prefix" {
@@ -32,3 +32,4 @@ variable "public_key_material" {
   type = string
 
 }
+
