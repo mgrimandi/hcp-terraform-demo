@@ -7,6 +7,7 @@ variable "ec2_type" {
 variable "name_prefix" {
   description = "Prefix Name for every resources"
   type = string
+  default = "test2"
 }
 
 variable "tf_vpc__cidr_block" {
@@ -32,4 +33,5 @@ variable "public_key_material" {
   type = string
 
 }
+
 
